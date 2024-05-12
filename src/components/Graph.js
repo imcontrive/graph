@@ -56,7 +56,7 @@ const Graph = () => {
             marker: { color: 'brown' },
         }];
         setGraphData(graphData);
-    }, []);
+    }, [days, values]);
 
 
     return (
