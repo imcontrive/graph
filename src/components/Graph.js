@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { useMemo } from 'react';
 import Plot from 'react-plotly.js';
 
 const data = {
@@ -43,8 +44,8 @@ const data = {
 const Graph = () => {
     const [graphData, setGraphData] = useState(null);
 
-    const days = data.conversion_rate.map(entry => entry.day);
-    const values = data.conversion_rate.map(entry => entry.value);
+    const days = useMemo(() => data.conversion_rate.map(entry => entry.day), []);
+    const values = useMemo(() => data.conversion_rate.map(entry => entry.value), []);
 
 
     useEffect(() => {
@@ -60,19 +61,23 @@ const Graph = () => {
 
 
     return (
-        <div style={{ width: '100%', maxWidth: '1000px', margin: '0 auto' }}>
-            {graphData && (
-                <Plot
-                    data={graphData}
-                    layout={{
-                        // width: 800,
-                        // height: 400,
-                        title: 'Conversion Rate Over Time',
-                        xaxis: { title: 'Date',  tickmode: 'auto',  },
-                        yaxis: { title: 'Conversion Rate' },
-                    }}
-                />
-            )}
+        <div style={{ display:'flex', justifyContent: 'center', alignItems: 'center' }}>
+            <div className='graph'>
+
+                {graphData && (
+                    <Plot
+                        data={graphData}
+                        layout={{
+                            // width: '500px',
+                            // height: '400px',
+                            title: 'Conversion Rate Over Time',
+                            xaxis: { title: 'Date', tickmode: 'linear' },
+                            yaxis: { title: 'Conversion Rate', tickmode: 'auto' },
+                        }}
+                    />
+                )}
+            </div>
+
         </div>
 
     );

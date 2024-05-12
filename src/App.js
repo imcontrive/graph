@@ -4,7 +4,7 @@ import { GoogleLogin } from '@react-oauth/google';
 import Graph from './components/Graph';
 
 function App() {
-  const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const [isLoggedIn, setIsLoggedIn] = useState(true);
 
   const responseMessage = (response) => {
     setIsLoggedIn(true)
