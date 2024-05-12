@@ -68,10 +68,10 @@ const Graph = () => {
                     <Plot
                         data={graphData}
                         layout={{
-                            // width: '500px',
-                            // height: '400px',
+                            width: '300px',
+                            height: '300px',
                             title: 'Conversion Rate Over Time',
-                            xaxis: { title: 'Date', tickmode: 'linear' },
+                            xaxis: { title: 'Date', tickmode: 'auto' },
                             yaxis: { title: 'Conversion Rate', tickmode: 'auto' },
                         }}
                     />
