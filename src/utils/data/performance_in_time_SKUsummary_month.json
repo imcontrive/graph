@@ -1,0 +1,19 @@
+{
+	"shop_id": 5349,
+	"shop_name": "dsp",
+	"time_start": "2024-04-01",
+	"time_end": "2024-04-30",
+	"sku_overview": [
+	  { "SKU-rank": 1, "SKU-name": "Judy Blue | PLUS/REG Judy Blue Fire In My Soul High Waist Bottoms - Medium", "PCS": 100, "CR": 0.083, "sales": 6700.0, "month_share": 0.0067 },
+	  { "SKU-rank": 2, "SKU-name": "Lord Daniel Sportswear | PLUS/REG New & Improved Albert Jr. Spaghetti Strap Tank - Neutrals A *Final", "PCS": 471, "CR": 0.098, "sales": 5996.0, "month_share": 0.006 },
+	  { "SKU-rank": 3, "SKU-name": "lisa-484 | *TAKEOVER* Instant Line Smoother 30ml", "PCS": 146, "CR": 0.006, "sales": 5840.0, "month_share": 0.0059 },
+	  { "SKU-rank": 4, "SKU-name": "Yelete | PLUS/REG Comfortable Embrace Top - Multiple Colors", "PCS": 261, "CR": 0.001, "sales": 5467.95, "month_share": 0.0055 },
+	  { "SKU-rank": 5, "SKU-name": "Lord Daniel Sportswear | PLUS/REG New & Improved Albert Ribbed Tank Top - Neutrals A", "PCS": 383, "CR": 0.065, "sales": 5251.45, "month_share": 0.0053 },
+	  { "SKU-rank": 6, "SKU-name": "Leto Accessories | I'm In It Bandana - Grey *Final Sale*", "PCS": 1, "CR": 0.045, "sales": 8.0, "month_share": 0.0 },
+	  { "SKU-rank": 7, "SKU-name": "KAXI | Amplify Your Look Gingham Ribbon - Red", "PCS": 1, "CR": 0.021, "sales": 34881, "month_share": 0.0 },
+	  { "SKU-rank": 8, "SKU-name": "Nihao | Pawsitive Vibes Hair Clips - Shiba Inu *Final Sale*", "PCS": 1, "CR": 0.082, "sales": 5.0, "month_share": 0.0 },
+	  { "SKU-rank": 9, "SKU-name": "Nihao | Braid Bliss Headband - Royal Blue", "PCS": 1, "CR": 0.089, "sales": 5.0, "month_share": 0.0 },
+	  { "SKU-rank": 10, "SKU-name": "Nihao | Nibble A Bit Carrot Earrings - Orange *Final Sale*", "PCS": 5, "CR": 0.093, "sales": 34790, "month_share": 0.0 }
+	]
+  }
+  

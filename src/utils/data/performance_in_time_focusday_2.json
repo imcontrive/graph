@@ -1,0 +1,16 @@
+{"shop_id" : 5349,
+ "shop_name" : "dsp",
+ "day": "2024-04-14",
+ "sku-overview" : [
+  		{"SKU-rank":1,"SKU-name":"Umgee | Wild With Style Top - Peach Mix","PCS":15,"CR":0.01,"sales":584.25,"day_share":0.0563},
+		{"SKU-rank":2,"SKU-name":"FULL TIME PURCHASE | Delicate Breeze Pants - White","PCS":9,"CR":0.018,"sales":440.55,"day_share":0.0424},
+		{"SKU-rank":3,"SKU-name":"Vine & Love | Freeing Confidence Dress - Mocha","PCS":7,"CR":0.086,"sales":370.65,"day_share":0.0358},
+		{"SKU-rank":4,"SKU-name":"Sew In Love | PLUS/REG Make Me Complete Top - Off White","PCS":8,"CR":0.01,"sales":359.6,"day_share":0.0347},
+		{"SKU-rank":5,"SKU-name":"POL | Comfort For Days Top - Powder Peach","PCS":5,"CR":0.02,"sales":344.75,"day_share":0.0332},
+		{"SKU-rank":6,"SKU-name":"Nihao | Tassel Tango Earrings - Blue","PCS":1,"CR":0.004,"sales":35034,"day_share":0.0013},
+		{"SKU-rank":7,"SKU-name":"Nihao | Petal Bloom Earrings - Purple","PCS":1,"CR":0.037,"sales":35034,"day_share":0.0013},
+		{"SKU-rank":8,"SKU-name":"Lord Daniel Sportswear | PLUS/REG New & Improved Albert Jr. Spaghetti Strap Tank - Colors A *Final S","PCS":2,"CR":0.063,"sales":12.0,"day_share":0.0012},
+		{"SKU-rank":9,"SKU-name":"Lord Daniel Sportswear | PLUS/REG New & Improved Albert Jr. Spaghetti Strap Tank - Neutrals B *Final","PCS":2,"CR":0.038,"sales":12.0,"day_share":0.0012},
+		{"SKU-rank":10,"SKU-name":"Lord Daniel Sportswear | PLUS/REG New & Improved Albert Ribbed Tank Top - Colors A","PCS":1,"CR":0.009,"sales":6.0,"day_share":0.0006}
+ ]
+}

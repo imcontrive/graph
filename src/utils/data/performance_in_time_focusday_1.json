@@ -1,0 +1,18 @@
+{
+	"shop_id": 5349,
+	"shop_name": "dsp",
+	"day": "2024-04-06",
+	"sku_overview": [
+	  { "SKU-rank": 1, "SKU-name": "Lord Daniel Sportswear | PLUS/REG New & Improved Albert Jr. Spaghetti Strap Tank - Neutrals A *Final", "PCS": 161, "CR": 0.041, "sales": 2576.0, "day_share": 0.0376 },
+	  { "SKU-rank": 2, "SKU-name": "Lord Daniel Sportswear | PLUS/REG New & Improved Albert Ribbed Tank Top - Neutrals A", "PCS": 156, "CR": 0.059, "sales": 2496.0, "day_share": 0.0364 },
+	  { "SKU-rank": 3, "SKU-name": "Oli & Hali | Be Ready To Rock Jumpsuit - Blue", "PCS": 18, "CR": 0.08, "sales": 2141.1, "day_share": 0.0312 },
+	  { "SKU-rank": 4, "SKU-name": "Lord Daniel Sportswear | PLUS/REG New & Improved Albert Ribbed Tank Top - Neutrals B", "PCS": 132, "CR": 0.012, "sales": 1584.0, "day_share": 0.0231 },
+	  { "SKU-rank": 5, "SKU-name": "Shoe La La | Forever Fun Sneakers - Yellow Multi", "PCS": 32, "CR": 0.032, "sales": 1566.4, "day_share": 0.0228 },
+	  { "SKU-rank": 6, "SKU-name": "Nihao | Keep Them Close Eyeglass Chain - S", "PCS": 1, "CR": 0.058, "sales": 9.54, "day_share": 0.0001 },
+	  { "SKU-rank": 7, "SKU-name": "Nihao | Pawsitive Vibes Hair Clips - Bernese Mountain Dog", "PCS": 1, "CR": 0.011, "sales": 34912, "day_share": 0.0001 },
+	  { "SKU-rank": 8, "SKU-name": "Ellie Rose | Socially Acceptable Phone Charm - Gold Metal", "PCS": 1, "CR": 0.015, "sales": 8.0, "day_share": 0.0001 },
+	  { "SKU-rank": 9, "SKU-name": "Nihao | A Little Twist Necklace - G *Final Sale*", "PCS": 1, "CR": 0.078, "sales": 8.0, "day_share": 0.0001 },
+	  { "SKU-rank": 10, "SKU-name": "UTDS | Solid Butter Boat Neckline Bodysuit *Final Sale*", "PCS": 1, "CR": 0.059, "sales": 5.0, "day_share": 0.0001 }
+	]
+  }
+  

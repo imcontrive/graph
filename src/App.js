@@ -2,6 +2,7 @@ import { useState } from 'react';
 import './App.css';
 import { GoogleLogin } from '@react-oauth/google';
 import Graph from './components/Graph';
+import ShopGraph from './components/ShowGraph';
 
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -17,16 +18,19 @@ function App() {
 
   return (
     <div className="App">
-      <h3 className='title'>Google Login & Plotly.js Graphs Demo</h3>
-     
+      {/* <h3 className='title'>Google Login & Plotly.js Graphs Demo</h3> */}
+
       {!isLoggedIn ? (
-       <div className='login'>
-       <div className='login-btn'>
-         <GoogleLogin onSuccess={responseMessage} onError={errorMessage} />
-       </div>
-     </div>
+        <div className='login'>
+          <div className='login-btn'>
+            <GoogleLogin onSuccess={responseMessage} onError={errorMessage} />
+          </div>
+        </div>
       ) : (
-        <Graph />
+        <>
+          <ShopGraph />
+          <Graph />
+        </>
       )}
     </div>
   );

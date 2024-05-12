@@ -61,25 +61,25 @@ const Graph = () => {
 
 
     return (
-        <div style={{ display:'flex', justifyContent: 'center', alignItems: 'center' }}>
-            <div className='graph'>
-
+        <div className='container'>
+            <div className='revenue revenue1'>
+                <p>Conversion Rate</p>
+            </div>
+            <div className='chart-container'>
                 {graphData && (
                     <Plot
                         data={graphData}
                         layout={{
                             width: '300px',
                             height: '300px',
-                            title: 'Conversion Rate Over Time',
-                            xaxis: { title: 'Date', tickmode: 'auto' },
-                            yaxis: { title: 'Conversion Rate', tickmode: 'auto' },
+                            // title: 'Conversion Rate',
+                            // xaxis: { title: 'Date', tickmode: 'auto' },
+                            // yaxis: { title: 'Conversion Rate', tickmode: 'array' },
                         }}
                     />
                 )}
             </div>
-
         </div>
-
     );
 }
 
